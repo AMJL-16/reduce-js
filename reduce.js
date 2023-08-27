@@ -6,7 +6,9 @@
 
 
 // Summing an array of numbers:
-
+const nums = [0,1,2,3,4];
+let sum = nums.reduce((acc, curr) => acc + curr);// ACC stand for accumulator and curr current value
+console.log(sum);
 
 const teamMembers = [
   {
